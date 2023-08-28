@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "paths": {
+        "@pages/*": ["./pages/*"],
+        "@components/*": ["./components/*"],
+        "@hooks/*": ["./hooks/*"]
+      },
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "jsx": "react"
+    },
+    "extends": "./tsconfig.paths.json",
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+  }
