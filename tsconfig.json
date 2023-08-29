@@ -11,5 +11,5 @@
       "jsx": "react"
     },
     "extends": "./tsconfig.paths.json",
-    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "types": ["node", "jest","@types/jest", "@testing-library/jest-dom"],
   }
